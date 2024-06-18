@@ -4,8 +4,7 @@ The ask is for their team of analysts to visualize how COVID spread affected dif
 Also, the NIH has asked for an analysis of COVID mortality in these countries, along with those visualizations,                  
 and for the team to draw data-based conclusions that might allow us to be better able to withstand the impact of another pandemic.
 
-As an ethical consideration, we used only de-identifed data, with no names attached. In addition, the data came from reputable sources (see below     
-for references). The data was aggregated, which would make it impossible to identify individuals. 
+As an ethical consideration, we used only de-identifed data, with no names attached. In addition, the data came from reputable sources (see below for references). The data was aggregated, which would make it impossible to identify individuals. 
 
 Data references ----------------------------------------------------
 

@@ -29,6 +29,9 @@ and for the team to draw data-based conclusions that might allow us to be better
   * Flask backend with interactive API routes that serve back Python or JavaScript created plots
   * Visualizations created from user-selected filtered data
 
-Data references -----------------------------
+Data references ----------------------------------------------------
+
 https://www.worldometers.info/world-population/population-by-country/
+
 https://ourworldindata.org/covid-deaths
+---------------------------------------------------------------------

@@ -19,3 +19,8 @@ HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizat
 Flask backend with interactive API routes that serve back Python or JavaScript created plots
 
 Visualizations created from user-selected filtered data
+
+Data references -----------------------------
+https://www.worldometers.info/world-population/population-by-country/
+https://ourworldindata.org/covid-deaths
+

@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('img/main-bckgrnd.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('img/main-bckgrnd.png');
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 1em;
+}
+
+#selCountry {
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+}
+
+#bar, #bubble, #line {
+    margin-top: 20px;
+}
+
+.banner {
+    height: 200px;
+    background-image: url('img/top-bckgrnd.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.main-content {
+    padding: 20px;
+    min-height: 100vh; 
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); 
+}

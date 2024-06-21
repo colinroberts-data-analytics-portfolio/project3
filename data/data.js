@@ -1,7 +1,7 @@
 let country_data = {
     United_States: {
-        "total_cases":98673905427.0,
-        "total_deaths":1218863185.0,
+        "total_cases":98673905.0,
+        "total_deaths":1218863.0,
         "Population":339996563.0,
         "vaccinations":358463653.0,
         "latitude":37.09024,
@@ -11,8 +11,8 @@ let country_data = {
         "Land_Area":9147420.0
     },
     Russia: {
-        "total_cases":21020726368.0,
-        "total_deaths":401887919.0,
+        "total_cases":21020726.0,
+        "total_deaths":401887.0,
         "Population":67736802.0,
         "vaccinations":1880500.0,
         "latitude":61.52401,
@@ -22,8 +22,8 @@ let country_data = {
         "Land_Area":16376870.0
     },
     England: {
-        "total_cases":23021744756.0,
-        "total_deaths":261355366.0,
+        "total_cases":23021744.0,
+        "total_deaths":261355.0,
         "Population":67736802.0,
         "vaccinations":112912117.0,
         "latitude":55.378051,
@@ -34,8 +34,8 @@ let country_data = {
     },
 
     Israel: {
-        "total_cases":4351336977.0,
-        "total_deaths":13151763.0,
+        "total_cases":4351336.0,
+        "total_deaths":13151.0,
         "Population":9174520.0,
         "vaccinations":83928749.0,
         "latitude":31.046051,
@@ -46,8 +46,8 @@ let country_data = {
     },
 
     China: {
-        "total_cases":52834165036.0,
-        "total_deaths":70720410.0,
+        "total_cases":52834165.0,
+        "total_deaths":70720.0,
         "Population":1425671352.0,
         "vaccinations":62767000.0,
         "latitude":35.86166,
@@ -58,8 +58,8 @@ let country_data = {
     },
 
     United_Arab_Emirates: {
-        "total_cases":1122625860.0,
-        "total_deaths":2760461.0,
+        "total_cases":1122625.0,
+        "total_deaths":27604.0,
         "Population":9516871.0,
         "vaccinations":48174894.0,
         "latitude":23.424076,"longitude":53.847818,
@@ -69,8 +69,8 @@ let country_data = {
     },
 
     Germany: {
-        "total_cases":30692981627.0,
-        "total_deaths":178143287.0,
+        "total_cases":30692981.0,
+        "total_deaths":178143.0,
         "Population":83294633.0,
         "vaccinations":33013230.0,
         "latitude":51.165691,
@@ -81,8 +81,8 @@ let country_data = {
     },
 
     Italy: {
-        "total_cases":21644870561.0,
-        "total_deaths":212975311.0,
+        "total_cases":21644870.0,
+        "total_deaths":212975.0,
         "Population":58870762.0,
         "vaccinations":29703535.0,
         "latitude":41.87194,
@@ -93,8 +93,8 @@ let country_data = {
     },
 
     India: {
-        "total_cases":48926651289.0,
-        "total_deaths":599302657.0,
+        "total_cases":48926651.0,
+        "total_deaths":5993026.0,
         "Population":1428627663.0,
         "vaccinations":24564363.0,
         "latitude":20.593684,
@@ -105,8 +105,8 @@ let country_data = {
     },
 
     Turkey: {
-        "total_cases":16404821691.0,
-        "total_deaths":107437256.0,
+        "total_cases":16404821.0,
+        "total_deaths":107437.0,
         "Population":85816199.0,
         "vaccinations":19731396.0,
         "latitude":38.963745,
@@ -117,8 +117,8 @@ let country_data = {
     },
 
     Spain: {
-        "total_cases":13313618559.0,
-        "total_deaths":141002109.0,
+        "total_cases":13313618.0,
+        "total_deaths":141002.0,
         "Population":47519628.0,
         "vaccinations":15542638.0,
         "latitude":40.463667,
@@ -129,8 +129,8 @@ let country_data = {
     },
 
     France: {
-        "total_cases":32547041968.0,
-        "total_deaths":185756417.0,
+        "total_cases":32547041.0,
+        "total_deaths":185756.0,
         "Population":64756584.0,
         "vaccinations":14181642.0,
         "latitude":46.603354,
@@ -141,8 +141,8 @@ let country_data = {
     },
 
     Poland: {
-        "total_cases":6542223249.0,
-        "total_deaths":128711768.0,
+        "total_cases":6542223.0,
+        "total_deaths":128711.0,
         "Population":41026067.0,
         "vaccinations":13382831.0,
         "latitude":51.919438,
@@ -153,8 +153,8 @@ let country_data = {
     },
 
     Mexico: {
-        "total_cases":7395257306.0,
-        "total_deaths":398087604.0,
+        "total_cases":7395257.0,
+        "total_deaths":398087.0,
         "Population":128455567.0,
         "vaccinations":9726196.0,
         "latitude":23.634501,
@@ -165,8 +165,8 @@ let country_data = {
     },
 
     Brazil: {
-        "total_cases":37650987467.0,
-        "total_deaths":796385382.0,
+        "total_cases":37650987.0,
+        "total_deaths":796385.0,
         "Population":216422446.0,
         "vaccinations":9367645.0,
         "latitude":-14.235004,
@@ -177,8 +177,8 @@ let country_data = {
     },
  
     Canada: {
-        "total_cases":4328297090.0,
-        "total_deaths":53408711.0,
+        "total_cases":4328297.0,
+        "total_deaths":53408.0,
         "Population":38781291.0,
         "vaccinations":8403751.0,
         "latitude":56.130366,

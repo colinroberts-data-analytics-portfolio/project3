@@ -12,7 +12,6 @@ function init() {
   buildHeatMapTotalCases();
   buildHeatMapTotalDeaths();
   buildHeatMapTotalVaccinations();
-  buildHeatMapMortalityRate();
 }
 
 // Function to update the dashboard when a new country is selected --------------------------------------
@@ -211,7 +210,7 @@ function buildHeatMapTotalVaccinations() {
       lon: lon,
       text: text,
       marker: {
-          size: z.map(d => d / 2e6), 
+          size: z.map(d => d / 1e6), // Adjusted size calculation
           color: z,
           colorscale: 'YlOrRd',
           cmin: 0,
@@ -249,69 +248,6 @@ function buildHeatMapTotalVaccinations() {
   };
 
   Plotly.newPlot("heatmapVaccinations", heatmapData, heatmapLayout);
-}
-
-
-// Function to build the heatmap for Mortality_Rate --------------------------------------
-function buildHeatMapMortalityRate() {
-  let lat = [];
-  let lon = [];
-  let text = [];
-  let z = [];
-
-  Object.keys(country_data).forEach((country) => {
-      let data = country_data[country];
-      lat.push(data.latitude);
-      lon.push(data.longitude);
-      text.push(`${country}<br>Total Cases: ${data.total_cases}<br>Total Deaths: ${data.total_deaths}<br>Vaccinations: ${data.vaccinations}<br>Population: ${data.Population}<br>Density(P/KMsq): ${data.Density}<br>Mortality_Rate: ${data.Mortality_Rate}`);
-      z.push(data.Mortality_Rate);
-  });
-
-  let heatmapData = [{
-    type: 'scattergeo',
-    locationmode: 'country names',
-    lat: lat,
-    lon: lon,
-    text: text,
-    marker: {
-      size: z.map(d => d * 10), 
-        color: z,
-        colorscale: 'YlOrRd',
-        cmin: 0,
-        cmax: Math.max(...z),
-        colorbar: {
-            title: 'Total Mortality Rate',
-            thickness: 10,
-            ticksuffix: 'Mortality_Rate',
-        },
-        line: {
-            color: 'black'
-        }
-    },
-    hoverinfo: 'text'
-}];
-
-  let heatmapLayout = {
-      title: 'Heatmap of Mortality Rate by Country',
-      geo: {
-          showframe: false,
-          showcoastlines: true,
-          coastlinecolor: 'rgb(255,255,255)',
-          projection: {
-              type: 'equirectangular'
-          },
-          showland: true,
-          landcolor: 'rgb(50,205,50)',
-          subunitwidth: 1,
-          countrywidth: 1,
-          subunitcolor: 'rgb(255,255,255)',
-          countrycolor: 'rgb(255,255,255)',
-          oceancolor: 'rgb(173,216,230)',
-          showocean: true
-      }
-  };
-
-  Plotly.newPlot("heatmapMortalityRates", heatmapData, heatmapLayout);
 }
 
 // Initialize the dashboard

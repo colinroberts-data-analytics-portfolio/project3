@@ -12,7 +12,7 @@ let country_data = {
     },
 
     Russia: {
-        "total_cases":24124215	.0,
+        "total_cases":24124215.0,
         "total_deaths":402756.0,
         "Population":144444359.0,
         "vaccinations":1880500.0,
@@ -22,6 +22,7 @@ let country_data = {
         "Density":9.0,
         "Land_Area":16376870.0
     },
+    
     England: {
         "total_cases":24910387.0,
         "total_deaths":232112.0,

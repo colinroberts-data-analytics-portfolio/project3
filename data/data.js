@@ -11,6 +11,17 @@ let country_data = {
         "Land_Area":9147420.0
     },
 
+    Russia: {
+        "total_cases":24124215	.0,
+        "total_deaths":402756.0,
+        "Population":144444359.0,
+        "vaccinations":1880500.0,
+        "Mortality_Rate":1.669509,
+        "latitude":61.524010,
+        "longitude":105.318756,
+        "Density":9.0,
+        "Land_Area":16376870.0
+    },
     England: {
         "total_cases":24910387.0,
         "total_deaths":232112.0,

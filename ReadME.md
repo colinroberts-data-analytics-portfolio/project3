@@ -4,7 +4,8 @@ The ask is for their team of analysts to visualize how COVID spread affected dif
 Also, the NIH has asked for an analysis of COVID mortality in these countries, along with those visualizations,
 and for the team to draw data-based conclusions that might allow us to be better able to withstand the impact of another pandemic.
 
-As an ethical consideration, we used only de-identifed data, with no names attached. In addition, the data came from reputable sources (see below for references). The data was aggregated, which would make it impossible to identify individuals.
+As an ethical consideration, we used only de-identifed data, with no names attached. In addition, the data came from reputable sources (see below for references). The data was aggregated, which would make it impossible to identify individuals.                  
+We used numerous data sets, hoping to mitigate and discrepancies.
 
 
 I Used a new library called re to convert the df into json then into js for the html, css, data.js, app.js of the website created
@@ -17,3 +18,5 @@ Data references ----------------------------------------------------
 https://www.worldometers.info/world-population/population-by-country/
 
 https://www.worldometers.info/coronavirus/#countries/
+
+http://kaggle.com

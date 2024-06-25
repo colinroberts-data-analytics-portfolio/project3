@@ -6,6 +6,12 @@ and for the team to draw data-based conclusions that might allow us to be better
 
 As an ethical consideration, we used only de-identifed data, with no names attached. In addition, the data came from reputable sources (see below for references). The data was aggregated, which would make it impossible to identify individuals.
 
+
+I Used a new library called re to convert the df into json then into js for the html, css, data.js, app.js of the website created
+
+https://colinroberts-data-analytics-portfolio.github.io/project3/
+
+
 Data references ----------------------------------------------------
 
 https://www.worldometers.info/world-population/population-by-country/

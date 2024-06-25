@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Load CSV file into data frame
-df = pd.read_csv('country_vaccinations.csv')
+df = pd.read_csv('vaccinations.csv')
 
 #Data
 data = { 
